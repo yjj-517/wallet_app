@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "测试",
+  "backgroundColor": "#F8F8F8",
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

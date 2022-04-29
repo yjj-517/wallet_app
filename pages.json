@@ -1,38 +1,79 @@
 {
-
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "钱包"
-			}
-		},
 		{
 			"path": "pages/wallet/wallet",
 			"style": {
-				"navigationBarTitleText": "wallet"
+				// "navigationBarTitleText": "钱包"
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
+			}
+		}, {
+			"path": "pages/network/network",
+			"style": {
+				// "navigationBarTitleText": "网络",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
+			}
+		}, {
+			"path": "pages/network/website",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
+			}
+		}, {
+			"path": "pages/network/newWeb",
+			"style": {
+				"navigationBarTitleText": "",
+				"backgroundColor": "#F8F8F8",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/ceshi/index",
+			"style": {
+				"navigationBarTitleText": "测试",
+				"backgroundColor": "#F8F8F8",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
 			}
 		}
 	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
+	// "globalStyle": {
+	// 	"navigationBarTextStyle": "black",
+	// 	"navigationBarTitleText": "uni-app",
+	// 	"navigationBarBackgroundColor": "#F8F8F8",
+	// 	"backgroundColor": "#F8F8F8"
+	// },
 	"tabBar": {
 		"color": "#8a8a8a",
 		"selectedColor": "#666666",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [{
-			"pagePath": "pages/index/index",
+			"pagePath": "pages/wallet/wallet",
 			"text": "钱包",
 			"iconPath": "static/logo.png",
 			"selectedIconPath": "static/logo.png"
 		}, {
-			"pagePath": "pages/wallet/wallet",
-			"text": "钱包",
+			"pagePath": "pages/network/network",
+			"text": "网络",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png"
+		}, {
+			"pagePath": "pages/ceshi/index",
+			"text": "测试",
 			"iconPath": "static/logo.png",
 			"selectedIconPath": "static/logo.png"
 		}]

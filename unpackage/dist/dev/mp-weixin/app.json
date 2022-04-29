@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/wallet/wallet",
+    "pages/network/network",
+    "pages/network/website",
+    "pages/ceshi/index"
+  ],
+  "subPackages": [],
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#666666",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/wallet/wallet",
+        "text": "钱包",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      },
+      {
+        "pagePath": "pages/network/network",
+        "text": "网络",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      },
+      {
+        "pagePath": "pages/ceshi/index",
+        "text": "测试",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

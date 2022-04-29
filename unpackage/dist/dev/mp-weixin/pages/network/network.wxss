@@ -1,0 +1,21 @@
+#network .network_banner.data-v-46049d64 {
+  position: relative;
+}
+#network .network_banner .search.data-v-46049d64 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  border: 2rpx solid #f3f3f3;
+  border-radius: 50rpx;
+  color: #a8a9ad;
+  background-color: #fff;
+  padding: 0 5%;
+  position: absolute;
+  line-height: 100rpx;
+  left: 5%;
+  bottom: -50rpx;
+}
+#network .network_banner .search .search_icon.data-v-46049d64 {
+  margin: auto 0;
+}
+

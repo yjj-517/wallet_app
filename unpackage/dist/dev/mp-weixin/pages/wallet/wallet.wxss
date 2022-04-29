@@ -1,0 +1,91 @@
+#wallet .head.data-v-dd5e78b4 {
+  background-color: #fcfcfc;
+  line-height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #f3f3f3;
+  padding: 0 4%;
+}
+#wallet .account.data-v-dd5e78b4 {
+  margin: 2% 4%;
+  background-color: #0790c4;
+  border-radius: 20rpx;
+  color: #fff;
+  padding: 5%;
+}
+#wallet .account .account_box1.data-v-dd5e78b4 {
+  display: flex;
+  justify-content: space-between;
+  line-height: 48rpx;
+}
+#wallet .account .account_box2.data-v-dd5e78b4 {
+  display: flex;
+  line-height: 48rpx;
+  color: #74cbef;
+}
+#wallet .account .account_box2 text.data-v-dd5e78b4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 300rpx;
+}
+#wallet .account .account_box3.data-v-dd5e78b4 {
+  text-align: right;
+}
+#wallet .account .account_box3 text.data-v-dd5e78b4:nth-of-type(1) {
+  vertical-align: top;
+  margin-right: 4rpx;
+}
+#wallet .account .account_box3 text.data-v-dd5e78b4:nth-of-type(2) {
+  font-size: 48rpx;
+}
+#wallet .eth_box.data-v-dd5e78b4 {
+  display: flex;
+  margin: 4%;
+  border: 2rpx solid #f7f7f9;
+  border-radius: 20rpx;
+  color: #47484d;
+  padding: 24rpx 0;
+}
+#wallet .eth_box .eth_imgs.data-v-dd5e78b4 {
+  margin: auto 50rpx;
+}
+#wallet .token.data-v-dd5e78b4 {
+  margin: 0 5%;
+}
+#wallet .token .token_tab.data-v-dd5e78b4 {
+  display: flex;
+  justify-content: space-between;
+}
+#wallet .token .token_content .token_box1 .token_box1_content.data-v-dd5e78b4 {
+  display: flex;
+  line-height: 160rpx;
+}
+#wallet .token .token_content .token_box1 .token_box1_content .token_imgs.data-v-dd5e78b4 {
+  margin: auto 0;
+}
+#wallet .token .token_content .token_box1 .token_box1_content .token_eth.data-v-dd5e78b4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #f7f7f9;
+  margin: 0 0 0 20rpx;
+}
+#wallet .token .token_content .token_box1 .token_box1_content .token_eth .token_eth_money.data-v-dd5e78b4 {
+  display: flex;
+  flex-direction: column;
+}
+#wallet .token .token_content .token_box1 .token_box1_content .token_eth .token_eth_money text.data-v-dd5e78b4 {
+  line-height: 48rpx;
+  text-align: right;
+}
+#wallet .token .token_content .token_box1 .token_box1_content .token_eth .token_eth_money text.data-v-dd5e78b4:nth-of-type(1) {
+  margin: 40rpx 0 0 0;
+  font-size: 36rpx;
+  font-weight: 500;
+}
+#wallet .token .token_content .token_box1 .token_box1_content .token_eth .token_eth_money text.data-v-dd5e78b4:nth-of-type(2) {
+  font-size: 24rpx;
+  color: #aeb3b7;
+}
+

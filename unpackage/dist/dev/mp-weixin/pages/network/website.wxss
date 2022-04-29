@@ -1,0 +1,36 @@
+#website .search.data-v-3b6a2551 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  border-bottom: 2rpx solid #f3f3f3;
+  line-height: 76rpx;
+  padding: 20rpx 5%;
+  width: 90%;
+  background-color: #fff;
+  z-index: 99;
+}
+#website .search text.data-v-3b6a2551 {
+  color: #2979ff;
+  margin-left: 20rpx;
+}
+#website .search_history.data-v-3b6a2551 {
+  margin: 18% 5% 0;
+}
+#website .search_history .search_box.data-v-3b6a2551 {
+  display: flex;
+  justify-content: space-between;
+  line-height: 76rpx;
+  color: #909399;
+}
+#website .search_history .history_box.data-v-3b6a2551 {
+  border-bottom: 2rpx solid #f3f3f3;
+}
+#website .search_history .history_box text.data-v-3b6a2551 {
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80%;
+}
+
